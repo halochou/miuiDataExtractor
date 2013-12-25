@@ -1,4 +1,10 @@
 #!/usr/local/bin/python2
+'''
+A extractor script to get info from MIUI Calendar database.
+The input file is calendar.db (sqlite) from MIUI ROM.
+The output is csv format match Google Calendar.
+'''
+
 import sqlite3
 from datetime import datetime
 from time import strftime
